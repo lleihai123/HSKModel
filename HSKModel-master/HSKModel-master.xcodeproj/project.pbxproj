@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2F1D1801E09107300FE1432 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F1D17F1E09107300FE1432 /* main.m */; };
+		D2F1D1831E09107400FE1432 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F1D1821E09107400FE1432 /* AppDelegate.m */; };
+		D2F1D1861E09107400FE1432 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F1D1851E09107400FE1432 /* ViewController.m */; };
+		D2F1D1891E09107400FE1432 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2F1D1871E09107400FE1432 /* Main.storyboard */; };
+		D2F1D18B1E09107500FE1432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2F1D18A1E09107500FE1432 /* Assets.xcassets */; };
+		D2F1D18E1E09107500FE1432 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2F1D18C1E09107500FE1432 /* LaunchScreen.storyboard */; };
+		D2F1D19A1E09116E00FE1432 /* HSKClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F1D1971E09116E00FE1432 /* HSKClass.m */; };
+		D2F1D19B1E09116E00FE1432 /* NSObject+HSKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F1D1991E09116E00FE1432 /* NSObject+HSKModel.m */; };
+		D2F1D19D1E09119A00FE1432 /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = D2F1D19C1E09119A00FE1432 /* user.json */; };
+		D2F1D1A01E0915C500FE1432 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F1D19F1E0915C500FE1432 /* ViewController1.m */; };
+		D2F1D1A31E0915CD00FE1432 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F1D1A21E0915CD00FE1432 /* ViewController2.m */; };
+		D2F1D1A61E0915D500FE1432 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F1D1A51E0915D500FE1432 /* ViewController3.m */; };
+		D2F1D1A91E0915E000FE1432 /* ViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F1D1A81E0915E000FE1432 /* ViewController4.m */; };
+		D2F1D1AC1E09189200FE1432 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F1D1AB1E09189200FE1432 /* Person.m */; };
+		D2F1D1AF1E0918EF00FE1432 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F1D1AE1E0918EF00FE1432 /* BaseModel.m */; };
+		D2F1D1B21E091F9A00FE1432 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F1D1B11E091F9A00FE1432 /* User.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D2F1D17B1E09107300FE1432 /* HSKModel-master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HSKModel-master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F1D17F1E09107300FE1432 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2F1D1811E09107300FE1432 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2F1D1821E09107400FE1432 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2F1D1841E09107400FE1432 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D2F1D1851E09107400FE1432 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D2F1D1881E09107400FE1432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2F1D18A1E09107500FE1432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2F1D18D1E09107500FE1432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2F1D18F1E09107500FE1432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F1D1961E09116E00FE1432 /* HSKClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSKClass.h; sourceTree = "<group>"; };
+		D2F1D1971E09116E00FE1432 /* HSKClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSKClass.m; sourceTree = "<group>"; };
+		D2F1D1981E09116E00FE1432 /* NSObject+HSKModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HSKModel.h"; sourceTree = "<group>"; };
+		D2F1D1991E09116E00FE1432 /* NSObject+HSKModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HSKModel.m"; sourceTree = "<group>"; };
+		D2F1D19C1E09119A00FE1432 /* user.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = user.json; sourceTree = "<group>"; };
+		D2F1D19E1E0915C500FE1432 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		D2F1D19F1E0915C500FE1432 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		D2F1D1A11E0915CD00FE1432 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		D2F1D1A21E0915CD00FE1432 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		D2F1D1A41E0915D500FE1432 /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		D2F1D1A51E0915D500FE1432 /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		D2F1D1A71E0915E000FE1432 /* ViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController4.h; sourceTree = "<group>"; };
+		D2F1D1A81E0915E000FE1432 /* ViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController4.m; sourceTree = "<group>"; };
+		D2F1D1AA1E09189200FE1432 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = HSKModel/Person.h; sourceTree = "<group>"; };
+		D2F1D1AB1E09189200FE1432 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = HSKModel/Person.m; sourceTree = "<group>"; };
+		D2F1D1AD1E0918EF00FE1432 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		D2F1D1AE1E0918EF00FE1432 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		D2F1D1B01E091F9A00FE1432 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		D2F1D1B11E091F9A00FE1432 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2F1D1781E09107300FE1432 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2F1D1721E09107200FE1432 = {
+			isa = PBXGroup;
+			children = (
+				D2F1D17D1E09107300FE1432 /* HSKModel-master */,
+				D2F1D17C1E09107300FE1432 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2F1D17C1E09107300FE1432 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2F1D17B1E09107300FE1432 /* HSKModel-master.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2F1D17D1E09107300FE1432 /* HSKModel-master */ = {
+			isa = PBXGroup;
+			children = (
+				D2F1D1951E09116E00FE1432 /* HSKModel */,
+				D2F1D1811E09107300FE1432 /* AppDelegate.h */,
+				D2F1D1821E09107400FE1432 /* AppDelegate.m */,
+				D2F1D1B01E091F9A00FE1432 /* User.h */,
+				D2F1D1B11E091F9A00FE1432 /* User.m */,
+				D2F1D1AA1E09189200FE1432 /* Person.h */,
+				D2F1D1AB1E09189200FE1432 /* Person.m */,
+				D2F1D1AD1E0918EF00FE1432 /* BaseModel.h */,
+				D2F1D1AE1E0918EF00FE1432 /* BaseModel.m */,
+				D2F1D1841E09107400FE1432 /* ViewController.h */,
+				D2F1D1851E09107400FE1432 /* ViewController.m */,
+				D2F1D19E1E0915C500FE1432 /* ViewController1.h */,
+				D2F1D19F1E0915C500FE1432 /* ViewController1.m */,
+				D2F1D1A11E0915CD00FE1432 /* ViewController2.h */,
+				D2F1D1A21E0915CD00FE1432 /* ViewController2.m */,
+				D2F1D1A41E0915D500FE1432 /* ViewController3.h */,
+				D2F1D1A51E0915D500FE1432 /* ViewController3.m */,
+				D2F1D1A71E0915E000FE1432 /* ViewController4.h */,
+				D2F1D1A81E0915E000FE1432 /* ViewController4.m */,
+				D2F1D1871E09107400FE1432 /* Main.storyboard */,
+				D2F1D18A1E09107500FE1432 /* Assets.xcassets */,
+				D2F1D18C1E09107500FE1432 /* LaunchScreen.storyboard */,
+				D2F1D19C1E09119A00FE1432 /* user.json */,
+				D2F1D18F1E09107500FE1432 /* Info.plist */,
+				D2F1D17E1E09107300FE1432 /* Supporting Files */,
+			);
+			path = "HSKModel-master";
+			sourceTree = "<group>";
+		};
+		D2F1D17E1E09107300FE1432 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2F1D17F1E09107300FE1432 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2F1D1951E09116E00FE1432 /* HSKModel */ = {
+			isa = PBXGroup;
+			children = (
+				D2F1D1961E09116E00FE1432 /* HSKClass.h */,
+				D2F1D1971E09116E00FE1432 /* HSKClass.m */,
+				D2F1D1981E09116E00FE1432 /* NSObject+HSKModel.h */,
+				D2F1D1991E09116E00FE1432 /* NSObject+HSKModel.m */,
+			);
+			path = HSKModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2F1D17A1E09107300FE1432 /* HSKModel-master */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2F1D1921E09107500FE1432 /* Build configuration list for PBXNativeTarget "HSKModel-master" */;
+			buildPhases = (
+				D2F1D1771E09107300FE1432 /* Sources */,
+				D2F1D1781E09107300FE1432 /* Frameworks */,
+				D2F1D1791E09107300FE1432 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HSKModel-master";
+			productName = "HSKModel-master";
+			productReference = D2F1D17B1E09107300FE1432 /* HSKModel-master.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2F1D1731E09107200FE1432 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = ZQ;
+				TargetAttributes = {
+					D2F1D17A1E09107300FE1432 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D2F1D1761E09107200FE1432 /* Build configuration list for PBXProject "HSKModel-master" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2F1D1721E09107200FE1432;
+			productRefGroup = D2F1D17C1E09107300FE1432 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2F1D17A1E09107300FE1432 /* HSKModel-master */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2F1D1791E09107300FE1432 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2F1D19D1E09119A00FE1432 /* user.json in Resources */,
+				D2F1D18E1E09107500FE1432 /* LaunchScreen.storyboard in Resources */,
+				D2F1D18B1E09107500FE1432 /* Assets.xcassets in Resources */,
+				D2F1D1891E09107400FE1432 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2F1D1771E09107300FE1432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2F1D1A31E0915CD00FE1432 /* ViewController2.m in Sources */,
+				D2F1D1861E09107400FE1432 /* ViewController.m in Sources */,
+				D2F1D1AC1E09189200FE1432 /* Person.m in Sources */,
+				D2F1D1AF1E0918EF00FE1432 /* BaseModel.m in Sources */,
+				D2F1D19B1E09116E00FE1432 /* NSObject+HSKModel.m in Sources */,
+				D2F1D1A01E0915C500FE1432 /* ViewController1.m in Sources */,
+				D2F1D19A1E09116E00FE1432 /* HSKClass.m in Sources */,
+				D2F1D1831E09107400FE1432 /* AppDelegate.m in Sources */,
+				D2F1D1B21E091F9A00FE1432 /* User.m in Sources */,
+				D2F1D1A61E0915D500FE1432 /* ViewController3.m in Sources */,
+				D2F1D1801E09107300FE1432 /* main.m in Sources */,
+				D2F1D1A91E0915E000FE1432 /* ViewController4.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D2F1D1871E09107400FE1432 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2F1D1881E09107400FE1432 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2F1D18C1E09107500FE1432 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2F1D18D1E09107500FE1432 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2F1D1901E09107500FE1432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D2F1D1911E09107500FE1432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2F1D1931E09107500FE1432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "HSKModel-master/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qkl.HSKModel-master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2F1D1941E09107500FE1432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "HSKModel-master/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qkl.HSKModel-master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2F1D1761E09107200FE1432 /* Build configuration list for PBXProject "HSKModel-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2F1D1901E09107500FE1432 /* Debug */,
+				D2F1D1911E09107500FE1432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2F1D1921E09107500FE1432 /* Build configuration list for PBXNativeTarget "HSKModel-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2F1D1931E09107500FE1432 /* Debug */,
+				D2F1D1941E09107500FE1432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2F1D1731E09107200FE1432 /* Project object */;
+}

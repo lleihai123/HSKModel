@@ -1,0 +1,30 @@
+{
+    "desciption": "集runtime之灵气, 吸MJExtension YYModel之精华",
+    "id": "13800138000",
+    "newName": "zhouqiao",
+    "hsk": null,
+    "person": {
+        "name" : null,
+        "age" : "26",
+        "sex" : "男"
+    },
+    
+    "persons":[
+                 {
+                     "name" : "zhou",
+                     "age" : "26",
+                     "sex" : "男"
+                 },
+                 {
+                     "name" : "zhouqiao",
+                     "age" : "16",
+                     "sex" : "男"
+                 },
+                 {
+                     "name" : "qiao",
+                     "age" : "36",
+                     "sex" : "女"
+                 }
+                 ]
+
+}
