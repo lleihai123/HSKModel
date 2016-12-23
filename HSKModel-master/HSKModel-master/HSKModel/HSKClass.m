@@ -109,7 +109,7 @@
     for (int i = 0 ; i < propertyCount; i++) {
         objc_property_t property = propertyList[i];
         HSKProperty *p = [[HSKProperty alloc]initWithProperty:property];
-        [propertys addObject:p];
+        if(p) [propertys addObject:p];
     }
     free(propertyList);
     return propertys;

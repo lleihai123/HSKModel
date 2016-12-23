@@ -200,27 +200,27 @@
             case HSKDataTypeNSString:
             case HSKDataTypeNSMutableString:{
                 NSString *str = ((NSString * (*)(id, SEL))(void *) objc_msgSend)(self, p.getter);
-                if(str) dictionary[key] = str;
+                if(str.length) dictionary[key] = str;
             }
                 break;
             case HSKDataTypeNSDictionary:
             case HSKDataTypeNSMutableDictionary:{
                 NSDictionary *dict = ((NSDictionary * (*)(id, SEL))(void *) objc_msgSend)(self, p.getter);
                 NSDictionary *mDict = [self dictionaryForDictionaryInModels:dict];
-                if(mDict && mDict.count) dictionary[key] = mDict;
+                if(mDict.count) dictionary[key] = mDict;
             }
                 break;
             case HSKDataTypeNSArray:
             case HSKDataTypeNSMutableArray:{
                 NSArray *array = ((NSArray * (*)(id, SEL))(void *) objc_msgSend)(self, p.getter);
                 NSArray *mArray = [self arrayForArrayInModels:array];
-                if(mArray && mArray.count) dictionary[key] = mArray;
+                if(mArray.count) dictionary[key] = mArray;
             }
                 break;
             case HSKDataTypeCustomObject:{
                 NSObject *object = ((NSObject * (*)(id, SEL))(void *) objc_msgSend)(self, p.getter);
                 NSDictionary *dict = [object hsk_modelToDictionary];
-                if(dict && dict.count) dictionary[key] = dict;
+                if(dict.count) dictionary[key] = dict;
             }
                 break;
             default:break;

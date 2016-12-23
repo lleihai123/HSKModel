@@ -18,9 +18,9 @@
 @interface NSObject (HSKModel)
 
 + (instancetype)hsk_modelWithObject:(id)object;
-+ (instancetype)hsk_modelWithResource:(NSString *)name ofType:(NSString *)ext;
-
 + (NSMutableArray *)hsk_modelArrayWithObject:(id)object;
+
++ (instancetype)hsk_modelWithResource:(NSString *)name ofType:(NSString *)ext;
 + (NSMutableArray *)hsk_modelArrayWithResource:(NSString *)name ofType:(NSString *)ext;
 
 - (NSMutableDictionary *)hsk_modelToDictionary;
