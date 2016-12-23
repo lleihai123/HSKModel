@@ -1,7 +1,7 @@
+ //
+//  NSObject+HSKModel.h
 //
-//  NSObject+JSON.h
-//
-//  Created by zhouqiao on 2016/12/12.
+//  Created by zhouqiao on 2016/12/19.
 //  Copyright © 2016年 ZQ. All rights reserved.
 //
 

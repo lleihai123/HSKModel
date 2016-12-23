@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D23D69EE1E0CDDA000F70AFE /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D23D69ED1E0CDDA000F70AFE /* Person.m */; };
 		D2F1D1801E09107300FE1432 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F1D17F1E09107300FE1432 /* main.m */; };
 		D2F1D1831E09107400FE1432 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F1D1821E09107400FE1432 /* AppDelegate.m */; };
 		D2F1D1861E09107400FE1432 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F1D1851E09107400FE1432 /* ViewController.m */; };
@@ -20,12 +21,13 @@
 		D2F1D1A31E0915CD00FE1432 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F1D1A21E0915CD00FE1432 /* ViewController2.m */; };
 		D2F1D1A61E0915D500FE1432 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F1D1A51E0915D500FE1432 /* ViewController3.m */; };
 		D2F1D1A91E0915E000FE1432 /* ViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F1D1A81E0915E000FE1432 /* ViewController4.m */; };
-		D2F1D1AC1E09189200FE1432 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F1D1AB1E09189200FE1432 /* Person.m */; };
 		D2F1D1AF1E0918EF00FE1432 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F1D1AE1E0918EF00FE1432 /* BaseModel.m */; };
 		D2F1D1B21E091F9A00FE1432 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F1D1B11E091F9A00FE1432 /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D23D69EC1E0CDDA000F70AFE /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		D23D69ED1E0CDDA000F70AFE /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		D2F1D17B1E09107300FE1432 /* HSKModel-master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HSKModel-master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F1D17F1E09107300FE1432 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D2F1D1811E09107300FE1432 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -49,8 +51,6 @@
 		D2F1D1A51E0915D500FE1432 /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
 		D2F1D1A71E0915E000FE1432 /* ViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController4.h; sourceTree = "<group>"; };
 		D2F1D1A81E0915E000FE1432 /* ViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController4.m; sourceTree = "<group>"; };
-		D2F1D1AA1E09189200FE1432 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = HSKModel/Person.h; sourceTree = "<group>"; };
-		D2F1D1AB1E09189200FE1432 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = HSKModel/Person.m; sourceTree = "<group>"; };
 		D2F1D1AD1E0918EF00FE1432 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
 		D2F1D1AE1E0918EF00FE1432 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 		D2F1D1B01E091F9A00FE1432 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
@@ -92,8 +92,8 @@
 				D2F1D1821E09107400FE1432 /* AppDelegate.m */,
 				D2F1D1B01E091F9A00FE1432 /* User.h */,
 				D2F1D1B11E091F9A00FE1432 /* User.m */,
-				D2F1D1AA1E09189200FE1432 /* Person.h */,
-				D2F1D1AB1E09189200FE1432 /* Person.m */,
+				D23D69EC1E0CDDA000F70AFE /* Person.h */,
+				D23D69ED1E0CDDA000F70AFE /* Person.m */,
 				D2F1D1AD1E0918EF00FE1432 /* BaseModel.h */,
 				D2F1D1AE1E0918EF00FE1432 /* BaseModel.m */,
 				D2F1D1841E09107400FE1432 /* ViewController.h */,
@@ -209,11 +209,11 @@
 			files = (
 				D2F1D1A31E0915CD00FE1432 /* ViewController2.m in Sources */,
 				D2F1D1861E09107400FE1432 /* ViewController.m in Sources */,
-				D2F1D1AC1E09189200FE1432 /* Person.m in Sources */,
 				D2F1D1AF1E0918EF00FE1432 /* BaseModel.m in Sources */,
 				D2F1D19B1E09116E00FE1432 /* NSObject+HSKModel.m in Sources */,
 				D2F1D1A01E0915C500FE1432 /* ViewController1.m in Sources */,
 				D2F1D19A1E09116E00FE1432 /* HSKClass.m in Sources */,
+				D23D69EE1E0CDDA000F70AFE /* Person.m in Sources */,
 				D2F1D1831E09107400FE1432 /* AppDelegate.m in Sources */,
 				D2F1D1B21E091F9A00FE1432 /* User.m in Sources */,
 				D2F1D1A61E0915D500FE1432 /* ViewController3.m in Sources */,

@@ -37,7 +37,16 @@
                            };
     
 
+    
     BaseModel *model = [BaseModel hsk_modelWithObject:json];
+    model.ID = nil;
+    NSLog(@"%@",model.ID);
+    NSLog(@"%@",model.desc);
+    NSLog(@"%@",model.name);
+    NSLog(@"%@",model.hsk);
+    NSLog(@"%@",model.person.name);
+    NSLog(@"%@",model.person.age);
+    NSLog(@"%@",model.person.sex);
 
 }
 

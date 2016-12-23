@@ -1,7 +1,7 @@
 //
-//  NSObject+JSON.m
+//  NSObject+HSKModel.h
 //
-//  Created by zhouqiao on 2016/12/12.
+//  Created by zhouqiao on 2016/12/19.
 //  Copyright © 2016年 ZQ. All rights reserved.
 //
 
@@ -130,9 +130,10 @@
 
 - (NSMutableDictionary *)getDictionaryForModelClass:(HSKClass *)modelClass{
     NSMutableDictionary *dictionary = [NSMutableDictionary dictionary];
+    NSArray *replacedKeyFromPropertyName = modelClass.replacedKeyFromPropertyName.allKeys;
     for (HSKProperty *p in modelClass.propertys) {
         NSString *key = p.propertyName;
-        if([modelClass.replacedKeyFromPropertyName.allKeys containsObject:p.propertyName]){
+        if([replacedKeyFromPropertyName containsObject:p.propertyName]){
             key = modelClass.replacedKeyFromPropertyName[p.propertyName];
         }
         switch (p.dataType) {
@@ -230,9 +231,10 @@
 
 + (NSObject *)setModelClass:(HSKClass *)modelClass dictionary:(NSDictionary *)dictionary{
     NSObject *objc = [modelClass.cls new];
+    NSArray *replacedKeyFromPropertyName = modelClass.replacedKeyFromPropertyName.allKeys;
     for (HSKProperty *p in modelClass.propertys) {
         id value = nil;
-        if([modelClass.replacedKeyFromPropertyName.allKeys containsObject:p.propertyName]){
+        if([replacedKeyFromPropertyName containsObject:p.propertyName]){
             NSString *key = modelClass.replacedKeyFromPropertyName[p.propertyName];
             value = dictionary[key];
         }else{
