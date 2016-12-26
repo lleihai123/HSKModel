@@ -26,9 +26,9 @@
     NSArray *array = [self arrayWithObject:object];
     if(!array) return nil;
     NSMutableArray *models = [NSMutableArray array];
-    for (NSDictionary *dictionary in array) {
-        if(![dictionary isKindOfClass:[NSNull class]] && dictionary){
-            NSObject *model = [self hsk_modelWithObject:dictionary];
+    for (id value in array) {
+        if([value isKindOfClass:[NSDictionary class]]){
+            NSObject *model = [self hsk_modelWithObject:value];
             if(model) [models addObject:model];
         }
     }
@@ -42,7 +42,7 @@
 
 - (NSMutableDictionary *)hsk_modelToDictionary{
     HSKClass *cls = [HSKClass classInfoWithClass:self.class];
-    return [self getDictionaryForModelClass:cls];;
+    return [self getDictionaryForModelClass:cls];
 }
 
 + (NSDictionary *)dictionaryWithResource:(NSString *)name ofType:(NSString *)ext{
@@ -94,10 +94,10 @@
     for(id obj in models){
         if([obj isKindOfClass:[NSNumber class]] || [obj isKindOfClass:[NSString class]]) {
             [mArray addObject:obj];
-        }else if ([obj isKindOfClass:[NSArray class]] || [obj isKindOfClass:[NSMutableArray class]]) {
+        }else if ([obj isKindOfClass:[NSArray class]]) {
             NSArray *array = [self arrayForArrayInModels:obj];
             if(array) [mArray addObject:array];
-        }else if ([obj isKindOfClass:[NSDictionary class]] || [obj isKindOfClass:[NSMutableDictionary class]]) {
+        }else if ([obj isKindOfClass:[NSDictionary class]]) {
             NSDictionary *dict = [self dictionaryForDictionaryInModels:obj];
             if(dict) [mArray addObject:dict];
         }else{
@@ -114,10 +114,10 @@
         id value = models[obj];
         if([value isKindOfClass:[NSNumber class]] || [value isKindOfClass:[NSString class]]) {
             mDictionary[obj] = value;
-        }else if ([value isKindOfClass:[NSArray class]] || [value isKindOfClass:[NSMutableArray class]]) {
+        }else if ([value isKindOfClass:[NSArray class]]) {
             NSArray *array = [self arrayForArrayInModels:value];
             if(array) mDictionary[obj] = array;
-        }else if ([value isKindOfClass:[NSDictionary class]] || [value isKindOfClass:[NSMutableDictionary class]]) {
+        }else if ([value isKindOfClass:[NSDictionary class]]) {
             NSDictionary *dict = [self dictionaryForDictionaryInModels:value];
             if(dict) mDictionary[obj] = dict;
         }else{

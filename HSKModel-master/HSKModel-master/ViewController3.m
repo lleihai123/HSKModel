@@ -31,6 +31,16 @@
                                    @"name" : @"zhouqiao",
                                    @"age" : @"26",
                                    @"sex" : @"男"
+                                   },
+                           @"dic": @{
+                                   @"name" : @"zhouqiao",
+                                   @"age" : @"26",
+                                   @"sex" : @"男",
+                                   @"dic1": @{
+                                           @"name" : @"zhouqiao",
+                                           @"age" : @"26",
+                                           @"sex" : @"男"
+                                           }
                                    }
                            };
     
@@ -38,6 +48,7 @@
     BaseModel *model = [BaseModel hsk_modelWithObject:json];
     NSDictionary *d = [model hsk_modelToDictionary];
     NSLog(@"%@", d);
+
     
 }
 

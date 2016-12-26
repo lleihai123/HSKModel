@@ -15,5 +15,6 @@
 @property (nonatomic, copy) NSString *ID;
 @property (nonatomic, copy) NSString *desc;
 @property (nonatomic, copy) NSString *hsk;
+@property (nonatomic, copy) NSDictionary *dic;
 @property (nonatomic ) Person *person;
 @end
