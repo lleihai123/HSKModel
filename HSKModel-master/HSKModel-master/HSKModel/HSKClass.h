@@ -39,7 +39,7 @@ typedef NS_ENUM (NSUInteger, HSKDataType) {
 @property (nonatomic, assign, readonly) Class propertyClass;
 @property (nonatomic, assign, readonly) SEL setter;
 @property (nonatomic, assign, readonly) SEL getter;
-@property (nonatomic, assign, readonly) NSString *propertyName;
+@property (nonatomic, strong, readonly) NSString *propertyName;
 @end
 
 @interface HSKClass : NSObject
