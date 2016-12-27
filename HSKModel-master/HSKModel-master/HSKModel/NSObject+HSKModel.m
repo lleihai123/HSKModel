@@ -281,11 +281,15 @@
                 ((void (*)(id, SEL, id))(void *) objc_msgSend)((id)objc, p.setter, [p.propertyClass hsk_modelWithObject:value]);
                 break;
             case HSKDataTypeNSString:
-            case HSKDataTypeNSMutableString:
+            case HSKDataTypeNSMutableString:{
                 if([value isKindOfClass:[NSString class]]){
                     NSString *str = (NSString *)value;
                     ((void (*)(id, SEL, id))(void *) objc_msgSend)((id)objc, p.setter, p.dataType == HSKDataTypeNSMutableString ? str.mutableCopy : str);
+                }else if ([value isKindOfClass:[NSNumber class]]){
+                    NSString *str = [NSString stringWithFormat:@"%@",value];
+                    ((void (*)(id, SEL, id))(void *) objc_msgSend)((id)objc, p.setter, p.dataType == HSKDataTypeNSMutableString ? str.mutableCopy : str);
                 }
+            }
                 break;
             case HSKDataTypeNSDictionary:
             case HSKDataTypeNSMutableDictionary:
